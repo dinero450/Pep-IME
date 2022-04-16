@@ -1,0 +1,65 @@
+Debemos verificar algunas condiciones antes de poder usar la prueba chi-cuadrado:
+1. Las observaciones deben ser independientes entre sí.
+2. Debe haber a lo menos 5 observaciones esperadas en cada grupo
+
+Prueba de homogeneidad
+Esta prueba resulta adecuada si queremos determinar si dos poblaciones (la variable dicotómica) presentan
+las mismas proporciones en los diferentes niveles de una variable categórica
+Las hipótesis a contrastar son:
+H0: programadores hombres y mujeres tienen las mismas preferencias en lenguaje de programación favorito
+(ambas poblaciones muestras las mismas proporciones para cada lenguaje estudiado).
+HA: programadores hombres y mujeres tienen preferencias distintas en lenguajes de programación favorito.
+
+
+
+Prueba chi-cuadrado de bondad de ajuste
+Esta prueba permite comprobar si una distribución de frecuencias observada se asemeja a una
+distribución esperada. Usualmente se emplea para comprobar si una muestra es representativa de la
+población
+En este ejemplo, las hipótesis a contrastar son:
+H0: las proporciones de especialistas en cada lenguaje son las mismas para la nómina y la muestra.
+HA: las proporciones de especialistas en cada lenguaje son diferentes en la nómina que en la muestra.
+
+
+Prueba chi-cuadrado de independencia
+Esta prueba permite determinar si dos variables categóricas, de una misma población, son estadísticamente independientes o si, por el contrario, están relacionadas.
+En este caso, las hipótesis a docimar son:
+H0: las variables clase y forma del sombrero son independientes.
+HA: las variables clase y forma del sombrero están relacionadas.
+
+
+PRUEBAS PARA MUESTRAS PEQUEÑAS
+Prueba exacta de Fisher
+La prueba exacta de Fisher es una alternativa a la prueba χ
+2 de independencia en el caso de que ambas
+variables sean dicotómicas. Así, las hipótesis a contrastar son:
+H0: las variables son independientes.
+HA: las variables están relacionadas.
+
+Prueba de mcNemar
+Esta prueba resulta apropiada cuando una misma característica, con respuesta dicotómica, se mide en dos
+ocasiones diferentes para los mismos sujetos (muestras pareadas) y queremos determinar si se produce o no un
+cambio significativo entre ambas mediciones.
+H0: no hay cambios significativos en las respuestas.
+HA: sí hay cambios significativos en las respuestas.
+
+PRUEBA Q DE COCHRAN
+La prueba Q de Cochran es una extensión de la prueba de mcNemar, adecuada cuando la variable de
+respuesta es dicotómica y la variable independiente tiene más de dos observaciones pareadas
+Las hipótesis contrastadas por la prueba Q de Cochran son:
+H0: la proporción de “éxitos” es la misma para todos los grupos.
+HA: la proporción de “éxitos” es distinta para al menos un grupo.
+Como ya debemos suponer, esta prueba también requiere que se cumplan algunas condiciones:
+1. La variable de respuesta es dicotómica.
+2. La variable independiente es categórica.
+3. Las observaciones son independientes entre sí.
+4. El tamaño de la muestra es lo suficientemente grande. Glen (2016a) sugiere que n · k ≥ 24, donde n es
+el tamaño de la muestra (la cantidad de instancias, para el ejemplo) y k, la cantidad de niveles en la
+variable independiente.
+
+ Esta clase de hipótesis nula suele llamarse ómnibus
+(en ocasiones también colectiva o global). Así, se dice que la prueba Q de Cochran es una prueba ómnibus
+porque tiene esta clase de hipótesis nula, con la dificultad de que solo detecta si existe al menos bloque con
+una proporción de “éxito” diferente.
+
+

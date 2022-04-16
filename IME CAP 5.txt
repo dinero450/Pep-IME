@@ -1,0 +1,31 @@
+Para poder usar la prueba Z, debemos verificar el cumplimiento de algunas
+condiciones:
+1.- La muestra debe tener al menos 30 observaciones. Si la muestra tiene menos de 30 observaciones, se
+debe conocer la varianza de la población.
+2.- Las observaciones deben ser independientes, es decir que la elección de una observación para la muestra
+no influye en la selección de las otras.
+3.- La población de donde se obtuvo la muestra sigue aproximadamente una distribución normal.
+
+Shapiro-Wilk sirve para ver la distribucion normal de la muestra, por lo que, si el resultado del valor p retornado
+por Shapiro es mayor al nivel de signifiacncia podemos suponer con relativa confianza que la población
+de donde proviene la muestra sigue una distribución muestral.
+
+alternative: tipo de hipótesis alternativa. Puede tomar los valores “two.sided” (hipótesis bilateral),
+“less” (hipótesis unilateral que la media de la población es menor que el valor nulo) o “greater”
+(hipótesis unilateral que la media de la población es mayor que el valor nulo).
+
+
+PRUEBA t para una muestra
+Condiciones:
+1. Las observaciones son independientes entre sí.
+2. Las observaciones provienen de una distribución cercana a la normal.
+
+Prueba t para dos muestras pareadas mismas condiciones 
+
+
+Prueba t para dos muestras independites:
+1. Cada muestra cumple las condiciones para usar la distribución t.
+2. Las muestras son independientes entre sí.
+
+
+El tamano de la muestra es menor al 10 del tamano de la poblacion justificar independicia

@@ -1,0 +1,7 @@
+ MÉTODO DE WALD
+Se deben cumplir las siguientes condiciones:
+1. Las observaciones de la muestra son independientes.
+2. Se cumple la condición de éxito-fracaso, que establece que se espera observar al menos 10 observaciones correspondientes a éxito y al menos 10, correspondientes a fracasos. Matemáticamente, np ≥ 10
+y n(1 − p) ≥ 10.
+
+METODO DE WALD PARA UNA PROPORCION

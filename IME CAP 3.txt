@@ -1,0 +1,3 @@
+Distribuciones discretas
+Binomial
+Binomial negativa----> ambas tienen condicones que son 4 ver pdf

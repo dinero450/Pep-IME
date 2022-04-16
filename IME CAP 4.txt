@@ -1,0 +1,3 @@
+el valor p se puede comparar directamente con el nivel de significación
+α, y si p es menor que el nivel de significación se considera evidencia suficiente para rechazar la hipótesis
+nula en favor de la hipótesis alternativa
