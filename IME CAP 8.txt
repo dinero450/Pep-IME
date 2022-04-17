@@ -29,6 +29,11 @@ HA: las variables clase y forma del sombrero están relacionadas.
 
 
 PRUEBAS PARA MUESTRAS PEQUEÑAS
+Hemos visto que la prueba χ
+2 nos pide que las observaciones esperadas para cada grupo sean a lo menos
+5. Sin embargo, hay escenarios donde esta condición no se cumple, por lo que debemos recurrir a alguna
+alternativa.
+
 Prueba exacta de Fisher
 La prueba exacta de Fisher es una alternativa a la prueba χ
 2 de independencia en el caso de que ambas

@@ -53,8 +53,8 @@ en dos grandes bloques:
 
 
 * Pruebas no parametricas: Pruebas para concluir sobre proporciones
-	- Chi cuadrado: homogeneidad - bondad de ajuste - independencia
-	- Fisher
+	- Chi cuadrado: homogeneidad - bondad de ajuste(No te preguntan sobre la distribucion) - independencia(Existe relacion)
+	- Fisher 
 	- McNemar 
 	- Q de Cochran 	    
 	
